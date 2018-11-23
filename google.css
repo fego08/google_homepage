@@ -11,29 +11,42 @@
     margin-right: auto;
     width: 50%;
 }
-.searchbutton1 {
-    display:inline-block;
-    margin-right: 5px;
-    margin: 2px;
+ol {
+    list-style-type: none;
+    margin: 0;
     padding: 0;
-    border: 0;
-    background: transparent;
-    font-family: inherit;
-    font-size: 16px;
-    cursor: pointer;
-    width: 248px;
+    text-align: center;
 }
-.searchbutton2 {
+li {
     display: inline-block;
-    margin-right: 5px;
-    margin: 2px;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    font-family: inherit;
-    font-size: 16px;
-    cursor: pointer;
-    width: 248px;
+    margin-top: 10px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 18px;
+    width: 150px;
+    background-color: lightgray;
+    color: darkslategray;
+}
+a:visited {
+    text-decoration: none;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    height: 18px;
+    width: 150px;
+    background-color: lightgray;
+    color: darkslategray;
+}
+a:hover {
+    border-color: black
+}
+a:focus {
+    border-color: black
 }
 input {
     border: none;
